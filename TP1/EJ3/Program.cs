@@ -12,7 +12,7 @@ namespace EJ3 {
             Console.Write("Ingrese la temperatura en grados Celsius: ");
             temperaturaCelsius = Convert.ToSingle(Console.ReadLine());
 
-            temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32;
+            temperaturaFahrenheit = (temperaturaCelsius * (9.0F/5.0F)) + 32.0F;
             Console.WriteLine("La temperatura en grados fahrenheit es: " + temperaturaFahrenheit + " grados");
         }
     }

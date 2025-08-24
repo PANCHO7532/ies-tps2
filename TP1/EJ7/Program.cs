@@ -15,7 +15,7 @@ namespace EJ7 {
             Console.Write("Ingrese cantidad de alumnos aprobados: ");
             cantidadAprobados = Convert.ToInt32(Console.ReadLine());
 
-            resultado = (cantidadAprobados * 100) / cantidadAlumnos;
+            resultado = (cantidadAprobados * 100.0F) / cantidadAlumnos;
 
             Console.WriteLine("El porcentaje de alumnos aprobados es: " + resultado + "%");
         }

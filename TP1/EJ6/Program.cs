@@ -18,7 +18,7 @@ namespace EJ6 {
             Console.Write("Ingrese numero 3: ");
             num3 = Convert.ToSingle(Console.ReadLine());
 
-            promedio = (num1 + num2 + num3) / 3;
+            promedio = (num1 + num2 + num3) / 3.0F;
 
             Console.WriteLine("El promedio es: " + promedio);
         }
