@@ -61,10 +61,8 @@ namespace EJ5 {
                 for (int a = 0; a < codigos.Length; a++) {
                     if (codigos[a] == codigoIngresado) {
                         if (a < 26) {
-                            Console.WriteLine("texto");
                             textoDecodificado = textoDecodificado + (char)('A' + a);
                         } else {
-                            Console.WriteLine("numero");
                             textoDecodificado = textoDecodificado + (char)('0' + (a - 26));
                         }
                     }
