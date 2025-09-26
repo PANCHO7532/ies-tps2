@@ -18,6 +18,7 @@ namespace EJ2 {
                 Console.WriteLine("El cuadrilatero no es un cuadrado.");
             }
 
+            Console.WriteLine("Cambiando la altura...");
             cuadrilatero.setAlto(70);
 
             if (cuadrilatero.esUnCuadrado()) {

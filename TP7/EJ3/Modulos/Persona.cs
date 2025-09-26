@@ -50,10 +50,13 @@ namespace EJ3.Modulos {
             Perro[] perros = { perro1, perro2, perro3 };
             if (perro1 == null) {
                 perro1 = _perro;
+                Console.WriteLine("El perro " + _perro.getNombre() + " fue adoptado!");
             } else if (perro2 == null) {
                 perro2 = _perro;
+                Console.WriteLine("El perro " + _perro.getNombre() + " fue adoptado!");
             } else if (perro3 == null) {
                 perro3 = _perro;
+                Console.WriteLine("El perro " + _perro.getNombre() + " fue adoptado!");
             } else {
                 Console.WriteLine("Ya no puedo adoptar");
             }

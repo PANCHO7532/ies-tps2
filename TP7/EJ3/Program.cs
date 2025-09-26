@@ -19,6 +19,7 @@ namespace EJ3 {
             persona.adoptarPerro(perro4);
 
             Perro perroGrande = persona.perroMasGrande();
+
             Console.WriteLine("El perro mas grande es: " +
                 perroGrande.getNombre() + " - " +
                 perroGrande.getRaza() + " " +

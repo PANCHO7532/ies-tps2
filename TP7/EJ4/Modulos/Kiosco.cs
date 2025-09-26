@@ -54,10 +54,16 @@ namespace EJ4.Modulos {
         public void incorporarEmpleado(Empleado _empleado) {
             if (empleado1 == null) {
                 empleado1 = _empleado;
+                Console.WriteLine("El empleado " + _empleado.getNombre() +
+                    " " + _empleado.getApellido() + " fue incorporado al kiosco!");
             } else if (empleado2 == null) {
                 empleado2 = _empleado;
+                Console.WriteLine("El empleado " + _empleado.getNombre() +
+                    " " + _empleado.getApellido() + " fue incorporado al kiosco!");
             } else if (empleado3 == null) {
                 empleado3 = _empleado;
+                Console.WriteLine("El empleado " + _empleado.getNombre() +
+                    " " + _empleado.getApellido() + " fue incorporado al kiosco!");
             } else {
                 Console.WriteLine("No se pueden incorporar mas empleados");
             }
