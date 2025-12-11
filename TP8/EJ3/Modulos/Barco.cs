@@ -26,7 +26,7 @@ namespace EJ3.Modulos {
         public void setMatricula(string matricula) { this.matricula = matricula; }
         public void setEslora(double eslora) { this.eslora = eslora; }
         public void setAnioFabricacion(int anioFabricacion) { this.anioFabricacion = anioFabricacion; }
-        public void setEspecial(bool especial) { this.especial = especial; }
+        protected void setEspecial(bool especial) { this.especial = especial; }
 
         public virtual int getNumeroMastiles() { return 0; }
         public virtual void setNumeroMastiles(int numeroMastiles) { return; }
