@@ -45,6 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modulos\IFecha.cs" />
+    <Compile Include="Modulos\Region.cs" />
+    <Compile Include="Modulos\RegionArgentina.cs" />
+    <Compile Include="Modulos\RegionInglesa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
