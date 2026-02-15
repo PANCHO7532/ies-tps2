@@ -18,8 +18,6 @@ namespace EJ3.Modulos {
         public string GetTitulo() { return titulo; }
         public void SetTitulo(string titulo) { this.titulo = titulo; }
 
-        public abstract string ToString() {
-            return "[" + GetCodigo() + "] " + GetTitulo();
-        }
+        public abstract override string ToString();
     }
 }
