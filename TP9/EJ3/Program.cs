@@ -108,12 +108,12 @@ namespace EJ3 {
                             break;
                         }
                         if (Convert.ToInt32(tempNumeroMaterial) > materiales.Length) {
-                            Console.Write("Materiales invalido, presione ENTER para continuar: ");
+                            Console.Write("Material invalido, presione ENTER para continuar: ");
                             Console.ReadLine();
                             break;
                         }
                         if (Convert.ToInt32(tempNumeroMaterial) == 0) {
-                            Console.Write("Materiales invalido, presione ENTER para continuar: ");
+                            Console.Write("Material invalido, presione ENTER para continuar: ");
                             Console.ReadLine();
                             break;
                         }
