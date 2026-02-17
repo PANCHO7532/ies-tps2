@@ -5,8 +5,8 @@ using System.Text;
 
 namespace EJ3.Modulos {
     abstract class Material {
-        private string codigo;
-        private string titulo;
+        protected string codigo;
+        protected string titulo;
 
         public Material(string codigo, string titulo) {
             SetCodigo(codigo);
