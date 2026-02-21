@@ -45,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modulos\Libro.cs" />
+    <Compile Include="Modulos\Material.cs" />
+    <Compile Include="Modulos\Pelicula.cs" />
+    <Compile Include="Modulos\Prestamo.cs" />
+    <Compile Include="Modulos\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
